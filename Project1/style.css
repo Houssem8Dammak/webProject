@@ -1,0 +1,30 @@
+.input-group{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+.input-row{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.input-row label{
+    width: 200px;
+    text-align: right;
+    margin-right: 10px;
+}
+.input-row input{
+    flex: 1;
+}
+.button-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-group button{
+    margin: 0px 25px;
+    margin-top: 10px;
+}
